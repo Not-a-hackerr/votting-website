@@ -1,0 +1,115 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../images/background.jpg'); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    text-align: center;
+  }
+  
+.logo {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 170px; 
+    height: auto;
+  }
+
+  .title {
+    width: 320px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .option {
+    width: 300px;
+    height: 65px;
+    border: 2px solid #fff;
+    border-radius:10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 400;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .answer {
+    width: 300px;
+    height: 65px;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius:10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 400;
+    color: #FFF;
+    font-size: 18px;
+  }
+  
+  .answer__label {
+    flex: 1; /* Expand to fill remaining space */
+    text-align: center; /* Center the label horizontally */
+    position:absolute;
+    top: 2;
+    left: 50%;
+    transform: translateX(-50%);    
+  }
+
+  .answer__percentage {
+    /* Add styles for the percentage */
+  position: absolute;
+  top: 2 ;
+  right: 0; /* Adjust width as needed */
+  margin-right: 10px;
+  }
+
+  .answer__bar {
+    /* Add styles for the bar */
+    height: 65px;
+    background-color: #996BF9; /* Set the color of the bar */
+    border-radius:7px;
+    position: relative;
+  }
+  
+  .option.selected {
+    border-width: 4px; 
+  }
+  
+  .submit {
+    width: 300px;
+    height: 65px;
+    border: 2px solid #8C8C8C;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-weight: 400;
+    color: #000;
+    cursor: pointer;
+    color: #996BF9;
+    font-size: 17px;
+  }
